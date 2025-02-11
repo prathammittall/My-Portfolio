@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/output.css">
     <title>Pratham Mittal - Portfolio</title>
 </head>
-<body class="bg-black text-white">
+
+<body class="bg-black text-white m-0 p-0">
     <header>
-        <nav class="w-full h-12 flex justify-between items-center p-5 bg-blue-600">
-            <ul class="flex gap-5">
-                <li><a href="">Home</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+        <nav class="w-full h-15 flex justify-between items-center px-24">
+            <h1 class="text-3xl font-Bebas-Neue font-bold">Portfolio</h1>
+            <ul class="flex gap-12">
+                <li><a class="text-cyan-500" href="index.html">Home</a></li>
+                <li><a class="hover:text-cyan-500" href="Projects.html">Projects</a></li>
+                <li><a class="hover:text-cyan-500" href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="hero h-120 w-full flex items-center justify-center">
+            <div class="first-section flex justify-between">
+                <div class="left-section flex gap-5 flex-col justify-center items-center">
+                    <h2 class="text-3xl font-bold">Hi it's me</h2>
+                    <p class="text-5xl font-bold">Pratham Mittal</p>
+                    
+                </div>
+                <div class="right-section flex justify-center items-center">
+                    <img src="Pratham.jpg" alt="" class="w-96 h-96 rounded-full">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
